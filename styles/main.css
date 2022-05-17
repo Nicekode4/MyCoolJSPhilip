@@ -1,0 +1,24 @@
+#gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
+}
+
+#gallery img {
+  width: 100%;
+}
+
+#bigPic {
+  display: none;
+}
+
+#bigPic img {
+  width: 100%;
+}
+
+#backBtn {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

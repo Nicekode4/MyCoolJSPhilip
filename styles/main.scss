@@ -1,0 +1,21 @@
+html{
+    
+}
+#gallery{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+   
+    img{
+        width: 100%;
+    }
+}
+#bigPic{
+    display: none;
+    img{
+        width: 100%;
+    }
+}
+#backBtn{
+    display: none;
+}
